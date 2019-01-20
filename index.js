@@ -3,7 +3,7 @@ var http = require('http');
 const PORT = 5001;
 
 function requestHandler(req, res) {
-	res.end(`Hello ${process.platform}`);
+	res.end(`Hello welcome to the Docker world with ${process.platform}`);
 }
 
 var server = http.createServer(requestHandler);
